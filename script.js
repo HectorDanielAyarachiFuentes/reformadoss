@@ -54,3 +54,5 @@ const image = document.getElementById("footer-image");
 image.addEventListener("click", () => {
     image.classList.toggle("small");
 });
+123
+456
