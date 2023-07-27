@@ -1,13 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
-
-
 /* Estilos generales */
 body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
-
 /* EDICIONES DEL HEADER *******************/
 .header {
   width: 100%;
@@ -22,7 +19,6 @@ body {
   transition: height 0.3s;
   margin-left: -1px;
 }
-
 /* Centrar título de header */
 .tituloh {
   display: flex;
@@ -30,7 +26,6 @@ body {
   align-items: center;
   flex: 1;
 }
-
 /* Estilos para el ícono de menú */
 .icon__menu {
   width: 100px;
@@ -39,13 +34,11 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .icon__menu i {
   font-size: 20px;
   cursor: pointer;
   position: relative;
 }
-
 /* EDICIONES DEL MENU LATERAL ********************/
 .menu__side {
   width: 80px;
@@ -63,15 +56,12 @@ body {
   transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
   transform: translateX(-150px);
 }
-
 .menu__side.menu__side_move {
   transform: translateX(0px);
 }
-
 .header_move .header-content {
   transform: translateX(250px);
 }
-
 /* Estilos para el contenido del menú lateral */
 .name__page {
   padding: 20px 30px;
@@ -79,18 +69,15 @@ body {
   align-items: center;
   margin-top: 10px;
 }
-
 .name__page i {
   width: 20px;
   margin-right: 20px;
 }
-
 .options__menu {
   padding: 20px 30px;
   position: absolute;
   top: 80px;
 }
-
 .options__menu a {
   color: #ffffffb2;
   cursor: default;
@@ -98,33 +85,27 @@ body {
   position: relative;
   transition: color 300ms;
 }
-
 .options__menu a:hover {
   color: white;
 }
-
 .options__menu .option {
   padding: 20px 0px;
   display: flex;
   align-items: center;
   position: relative;
 }
-
 .options__menu .option i {
   width: 20px;
   margin-right: 20px;
   cursor: pointer;
 }
-
 .options__menu .option h4 {
   font-weight: 300;
   cursor: pointer;
 }
-
 a.selected {
   color: #fff;
 }
-
 .selected:before {
   content: "";
   width: 3px;
@@ -134,45 +115,36 @@ a.selected {
   top: 10%;
   left: -30px;
 }
-
 /* Ocultar scroll para Chrome, Safari y Opera */
 .menu__side::-webkit-scrollbar {
   display: none;
 }
-
 /* Ocultar scroll para IE, Edge y Firefox */
 .menu__side {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-
 /* Clases para usar en JavaScript */
 .body_move {
   margin-left: 250px;
 }
-
 .menu__side_move {
   width: 250px;
 }
-
 /* Media Query para resolución menor a 320px */
 @media screen and (max-width: 320px) {
   .header_move .header-content {
     transform: translateX(0px);
-
     .menu__side {
       background: white;
     }
-
     .menu__side_move {
       display: none;
       /* Ocultar el menú lateral */
     }
   }
 }
-
 /* EDICIONES DEL MAIN*******************************************/
-
 /* Aquí estableces el valor del margen para los cuatro lados */
 main {
   margin: 20px;
@@ -185,9 +157,7 @@ main {
   flex-wrap: wrap;
   /* Permite que los elementos del contenedor flex se ajusten en filas cuando hay espacio limitado */
 }
-
 /*Contenedor de flex box*/
-
 .card {
   border-radius: 20px;
   padding: 20px;
@@ -202,7 +172,6 @@ main {
   flex: 1;
   /* Hacemos que los cards ocupen el mismo espacio disponible */
 }
-
 /* Edicion de imagene principal nena saludando*/
 .imagen-1 {
   max-width: 34%;
@@ -219,16 +188,13 @@ main {
   /* Ajusta el valor según sea necesario para mover la imagen hacia abajo */
   float: left;
 }
-
 .imagen-1 {
   margin-top: 10px;
   /* Ajusta el margen superior según sea necesario */
   max-width: 100%;
   /* Hace que la imagen sea responsive */
 }
-
 /* Edicion de imagens de los flex box*/
-
 .my-image1 {
   width: 200px;
   /* Ajusta el tamaño según tus necesidades */
@@ -236,7 +202,6 @@ main {
   margin-right: 10px;
   /* Ajusta el margen según tus necesidades */
 }
-
 /* Estilos para la segunda imagen */
 .my-image2 {
   width: 200px;
@@ -245,18 +210,15 @@ main {
   margin-right: 10px;
   /* Ajusta el margen según tus necesidades */
 }
-
 .text {
   flex-grow: 1;
   /* Hacemos que ocupe todo el espacio disponible en el contenedor flex */
 }
-
 /* Estilos para el contenido de texto */
 .text {
   flex: 1;
   /* Hacemos que el contenido de texto ocupe todo el espacio disponible en el contenedor flex */
 }
-
 /* Estilos para la imagen */
 .my-image1,
 .my-image2 {
@@ -266,14 +228,12 @@ main {
   margin-right: 10px;
   /* Ajusta el margen derecho según tus necesidades */
 }
-
 /* Estilos generales */
 body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
-
 /* EDICIONES DEL HEADER *******************/
 .header {
   width: 100%;
@@ -288,7 +248,6 @@ body {
   transition: height 0.3s;
   margin-left: -1px;
 }
-
 /* Centrar título de header */
 .tituloh {
   display: flex;
@@ -296,7 +255,6 @@ body {
   align-items: center;
   flex: 1;
 }
-
 /* Estilos para el ícono de menú */
 .icon__menu {
   width: 100px;
@@ -305,13 +263,11 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .icon__menu i {
   font-size: 20px;
   cursor: pointer;
   position: relative;
 }
-
 /* EDICIONES DEL MENU LATERAL ********************/
 .menu__side {
   width: 80px;
@@ -329,15 +285,12 @@ body {
   transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
   transform: translateX(-150px);
 }
-
 .menu__side.menu__side_move {
   transform: translateX(0px);
 }
-
 .header_move .header-content {
   transform: translateX(250px);
 }
-
 /* Estilos para el contenido del menú lateral */
 .name__page {
   padding: 20px 30px;
@@ -345,18 +298,15 @@ body {
   align-items: center;
   margin-top: 10px;
 }
-
 .name__page i {
   width: 20px;
   margin-right: 20px;
 }
-
 .options__menu {
   padding: 20px 30px;
   position: absolute;
   top: 80px;
 }
-
 .options__menu a {
   color: #ffffffb2;
   cursor: default;
@@ -364,33 +314,27 @@ body {
   position: relative;
   transition: color 300ms;
 }
-
 .options__menu a:hover {
   color: white;
 }
-
 .options__menu .option {
   padding: 20px 0px;
   display: flex;
   align-items: center;
   position: relative;
 }
-
 .options__menu .option i {
   width: 20px;
   margin-right: 20px;
   cursor: pointer;
 }
-
 .options__menu .option h4 {
   font-weight: 300;
   cursor: pointer;
 }
-
 a.selected {
   color: #fff;
 }
-
 .selected:before {
   content: "";
   width: 3px;
@@ -400,33 +344,26 @@ a.selected {
   top: 10%;
   left: -30px;
 }
-
 /* Ocultar scroll para Chrome, Safari y Opera */
 .menu__side::-webkit-scrollbar {
   display: none;
 }
-
 /* Ocultar scroll para IE, Edge y Firefox */
 .menu__side {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-
 /* Clases para usar en JavaScript */
 .body_move {
   margin-left: 250px;
 }
-
 .menu__side_move {
   width: 250px;
 }
-
 ----------------------
 /* CONTACTOS***********************************/
-
 /*Formulario**/
 /*estilo de formulario de mensajes*/
-
 section {
   margin: 40px 80px;
   display: flex;
@@ -434,18 +371,15 @@ section {
   max-width: 400px;
   margin: 0 auto;
 }
-
 .contact-form {
   display: flex;
   flex-direction: column;
   max-width: 400px;
   margin: 0 auto;
 }
-
 .contact-form label {
   margin-bottom: 5px;
 }
-
 .contact-form input,
 .contact-form textarea {
   margin-bottom: 10px;
@@ -453,7 +387,6 @@ section {
   border: 1px solid #ccc;
   border-radius: 3px;
 }
-
 .contact-form button {
   padding: 10px 20px;
   background-color: #4caf50;
@@ -462,37 +395,30 @@ section {
   border-radius: 3px;
   cursor: pointer;
 }
-
 .contact-form button:hover {
   background-color: #45a049;
 }
-
 .container {
   display: flex;
 }
-
 .contact-container {
   flex: 0 0 300px;
   margin-right: 20px;
   border: 1px solid #ccc;
   padding: 20px;
 }
-
 .contact-container h2 {
   margin-bottom: 10px;
   text-align: center;
 }
-
 .contact-container .contact-form {
   margin-top: 20px;
 }
-
 /* Mantiene la imagen del google maps en su lugar xd */
 .map-container img {
   max-width: 100%;
   max-height: 100%;
 }
-
 .map-container {
   flex: 1;
   border: 1px solid #ccc;
@@ -504,25 +430,20 @@ section {
   margin-top: 20px;
   /* Agregamos el estilo overflow para ocultar el contenido que supere el tamaño del cuadro */
 }
-
 .contact-container {
   flex: 0 0 300px;
   margin-right: 20px;
   border: 1px solid #ccc;
   padding: 20px;
 }
-
 .contact-container h2 {
   margin-bottom: 10px;
   text-align: center;
 }
-
 .contact-container .contact-form {
   margin-top: 20px;
 }
-
 /* EDICIONES DEL MAIN*******************************************/
-
 /* Aquí estableces el valor del margen para los cuatro lados */
 main {
   margin: 20px;
@@ -535,9 +456,7 @@ main {
   flex-wrap: wrap;
   /* Permite que los elementos del contenedor flex se ajusten en filas cuando hay espacio limitado */
 }
-
 /*Contenedor de flex box*/
-
 .card {
   border-radius: 20px;
   padding: 20px;
@@ -552,7 +471,6 @@ main {
   flex: 1;
   /* Hacemos que los cards ocupen el mismo espacio disponible */
 }
-
 /* Edicion de imagene principal nena saludando*/
 .imagen-1 {
   max-width: 34%;
@@ -569,16 +487,13 @@ main {
   /* Ajusta el valor según sea necesario para mover la imagen hacia abajo */
   float: left;
 }
-
 .imagen-1 {
   margin-top: 10px;
   /* Ajusta el margen superior según sea necesario */
   max-width: 100%;
   /* Hace que la imagen sea responsive */
 }
-
 /* Edicion de imagens de los flex box*/
-
 .my-image1 {
   width: 200px;
   /* Ajusta el tamaño según tus necesidades */
@@ -586,7 +501,6 @@ main {
   margin-right: 10px;
   /* Ajusta el margen según tus necesidades */
 }
-
 /* Estilos para la segunda imagen */
 .my-image2 {
   width: 200px;
@@ -595,18 +509,15 @@ main {
   margin-right: 10px;
   /* Ajusta el margen según tus necesidades */
 }
-
 .text {
   flex-grow: 1;
   /* Hacemos que ocupe todo el espacio disponible en el contenedor flex */
 }
-
 /* Estilos para el contenido de texto */
 .text {
   flex: 1;
   /* Hacemos que el contenido de texto ocupe todo el espacio disponible en el contenedor flex */
 }
-
 /* Estilos para la imagen */
 .my-image1,
 .my-image2 {
@@ -616,22 +527,18 @@ main {
   margin-right: 10px;
   /* Ajusta el margen derecho según tus necesidades */
 }
-
 @media screen and (max-width: 320px) {
   .card {
     display: flex;
     flex-direction: column;
     /* Cambia la dirección del flex, colocando el contenido en columnas */
   }
-
   .my-image1 {
     margin-bottom: 0;
     /* Quita el margen inferior para que el texto esté justo debajo de la imagen */
   }
 }
-
 /*FLECHA SCROLL PARA SUBIR********/
-
 /* Estilos de la flecha de scroll hacia arriba */
 #scroll-to-top {
   position: fixed;
@@ -649,17 +556,13 @@ main {
   z-index: 999;
   /* Asegura que la flecha esté por encima de otros elementos */
 }
-
 #scroll-to-top.show {
   display: block;
 }
-
 .hidden {
   display: none;
 }
-
 /*EDICIONES FOOTER***************/
-
 footer {
   position: relative;
   bottom: 0;
@@ -675,9 +578,7 @@ footer {
   /* Asegura que el footer esté por encima del header */
   margin-left: auto;
   margin-right: 0;
-
 }
-
 /* Modificamos la clase .grid-container */
 .grid-container {
   display: grid;
@@ -690,7 +591,6 @@ footer {
   margin-left: 40px;
   margin-right: 40px;
 }
-
 /* Modificamos la clase .grid-container a .item */
 .item {
   display: flex;
@@ -705,35 +605,28 @@ footer {
   margin-right: 40px;
   border: 1px solid #187418;
 }
-
 /* Estilo para cada enlace */
 .item a {
   margin-bottom: 10px;
   /* Agregamos un margen inferior entre cada enlace */
 }
-
 /* Resto del código permanece igual */
 .item i {
   margin-right: 5px;
   /* Ajustamos el margen derecho de los íconos */
 }
-
 .item img {
   max-width: 100%;
   height: auto;
 }
-
 /*Media queries para que los flex y css grid no se corran*/
-
 /* Resto de los estilos ... */
-
 /* Media Query para pantallas de hasta 320px */
 @media screen and (max-width: 320px) {
   .grid-container {
     grid-template-columns: 1fr;
     /* Mostrar un solo elemento por fila */
   }
-
   .item {
     margin: 20px auto;
     /* Centrar los elementos horizontalmente */
@@ -741,25 +634,20 @@ footer {
     /* Limitar el ancho de los elementos */
   }
 }
-
 /*------------*/
-
 .flex-container {
   display: flex;
   flex-direction: column;
 }
-
 .flex-container .my-image1 {
   margin-left: auto;
   /* Center the image horizontally */
   margin-right: auto;
 }
-
 .text {
   margin-top: 20px;
   /* Add some space between the image and text on smaller screens */
 }
-
 /**/
 .container {
   flex-direction: column;
@@ -767,17 +655,13 @@ footer {
   align-items: center;
   /* Center elements horizontally */
 }
-
 .contact-container,
 .map-container {
   margin: 20px 0;
   /* Add space between the contact form and map on smaller screens */
 }
-
 .map-container iframe {
   width: 100%;
   /* Make the map fill the entire width of its container */
 }
-
 /*//
-
